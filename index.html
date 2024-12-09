@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adventure</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
     <link rel="Stylesheet" href="style.css">
 </head>
 <body>
@@ -25,19 +28,62 @@
                 <a href="#" class="ctn">Learn more</a>
         </div>
     </header>
+     
+    <main>
+        <div class="py-24 text-center text-5xl font-bold text-amber-500"> Upcoming Event
 
-    <section>
-        <div class="title">
-            <h1>Upcoming Events</h1>
-            <div class="line"></div>
         </div>
-        <div class="row">
-            <div class="col">
-                
+        <section>
+            <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div class="-mt-32 card bg-base-100 shadow-xl">
+                    <figure>
+                      <img
+                        src="camping.jpg"
+                        alt="#" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-2xl font-bold">Everest Camp Trek</h2>
+                      <p>Camping is an outdoor activity that involves staying the night/more than one night in a protective shelter out in nature. camping is a way of getting away from the hassle of urban life, to a more natural environment for a limited time</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn mt-5 text-xl text-white  bg-purple-500">Learn more</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="-mt-32 card bg-base-100  shadow-xl">
+                    <figure>
+                      <img
+                        src="travel.png"
+                        alt="#" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-2xl font-bold"> River Adventure</h2>
+                      <p>A view from a river offers a tranquil and picturesque experience, whether you're cruising, kayaking, or simply enjoying the riverside.A serene river surrounded by lush greenery, rocky outcrops, or quaint villages.</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn text-xl text-white  bg-purple-500">Learn more</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="-mt-32 card bg-base-100  shadow-xl">
+                    <figure>
+                      <img
+                        src="img walk.jpg"
+                        alt="#" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-2xl font-bold">Walking Forest</h2>
+                      <p>A forest walk is a rejuvenating and magical experience, offering a chance to immerse yourself in the natural world.A serene forest with walking trails, surrounded by towering trees, vibrant greenery, and the sounds of wildlife.</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn text-xl text-white  bg-purple-500">Learn more</button>
+                      </div>
+                    </div>
+                  </div>
             </div>
-        </div>
-        
-    </section>
+
+        </section>
+    </main>
+    
     
 </body>
 </html>
